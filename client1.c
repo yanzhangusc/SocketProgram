@@ -39,7 +39,7 @@ char* clientPhase2(void){
 	struct sockaddr_in local;  // used in getsockname() to get port number
     socklen_t local_len = sizeof(local);
 	
-	
+	//rebase test3
 	hostinfo=gethostbyname("nunki.usc.edu");
     inet_ntop(hostinfo->h_addrtype, hostinfo->h_addr, ipAddr, 20); //get host IP address
 	
